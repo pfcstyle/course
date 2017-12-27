@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,7 +44,7 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
-    #验证码 migrate url
+    # 验证码 migrate url
     'captcha',
     'pure_pagination',
     'DjangoUeditor',
@@ -90,7 +89,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'course.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -103,8 +101,6 @@ DATABASES = {
         'HOST': "127.0.0.1"
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -123,7 +119,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
@@ -144,7 +139,7 @@ EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25
 EMAIL_HOST_USER = "pfcstyle@sina.com"
 EMAIL_HOST_PASSWORD = "wy3206325-"
-EMAIL_USE_TLS= False
+EMAIL_USE_TLS = False
 EMAIL_FROM = "pfcstyle@sina.com"
 
 # Static files (CSS, JavaScript, Images)
@@ -157,4 +152,3 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
