@@ -6,7 +6,7 @@ from captcha.fields import CaptchaField
 
 from .models import UserProfile
 
-# 这里应该跟html中form表单中的name一致
+# 这里应该跟html中form表单中的name一致  form相当于apibean
 class LoginForm(forms.Form):
     username = forms.CharField(required=True)
     password = forms.CharField(required=True, min_length=5)
