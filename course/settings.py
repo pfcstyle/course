@@ -42,9 +42,8 @@ INSTALLED_APPS = [
     'subjects',
     'organization',
     'operation',
-    'xadmin',
     'crispy_forms',
-    # 验证码 migrate url
+    'xadmin',
     'captcha',
     'pure_pagination',
     'DjangoUeditor',
